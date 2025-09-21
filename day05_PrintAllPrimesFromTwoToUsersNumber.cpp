@@ -9,7 +9,7 @@ enumCheckPrime checkPrimeNum(int rUserNum){       //tests the number if it is pr
     return enumCheckPrime::notPrime;}
     
     
-    for(int i=2; i<rUserNum; i++){
+    for(int i=2; i<=rUserNum/2; i++){
         if(rUserNum%i == notPrime)
         return enumCheckPrime::notPrime;
     }
@@ -34,4 +34,5 @@ int main(){
     
     PrintPrimesFromTwotoN(ReadUserNum());
     return 0;
+
 }
