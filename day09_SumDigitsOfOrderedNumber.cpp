@@ -26,9 +26,10 @@ int main(){
     
     // Prompt the user to enter a positive number and then calculate the sum of its digits.
     // The result is then printed to the console with an explanatory message.
-    cout << "Sum Of Digits = " 
+    cout << "" 
          << SumOfDigits(ReadNum("Please enter a positive number?"))
          << "\n";
     
     return 0;
+
 }
