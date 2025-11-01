@@ -18,6 +18,7 @@ int SumOfDigits(int Number){
         Number = Number/10;
         sum += Remainder;
     }
+    cout << "Sum Of Digits = ";
     return sum;
 }
 
@@ -33,3 +34,4 @@ int main(){
     return 0;
 
 }
+
