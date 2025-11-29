@@ -23,7 +23,7 @@ int RandomNumber(int From, int To)
 //Enumeration: enCharType
 // Purpose: Defines different character types for random character generation.
 enum enCharType { 
-    SamallLetter = 1,    // Represents lowercase letters (ASCII 97 to 122).
+    SamallLetter = 1,    // Represents lowercase letters   (ASCII 97 to 122).
     CapitalLetter = 2,   // Represents uppercase letters (ASCII 65 to 90).
     SpecialCharacter = 3,// Represents special characters (ASCII 33 to 47).
     Digit = 4            // Represents digits (ASCII 48 to 57).
@@ -83,4 +83,5 @@ int main()
     return 0;  // Return 0 to indicate successful program execution.
 
 }
+
 
