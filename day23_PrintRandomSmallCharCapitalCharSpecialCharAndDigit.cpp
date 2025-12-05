@@ -36,7 +36,7 @@ enum enCharType {
 // Returns: A random character of the specified type.
 char GetRandomCharacter(enCharType CharType)
 {
-    // Use a switch-case to handle the different character types.
+    // Use a switch-case to handle the different character  types.
     switch (CharType)
     {
     case enCharType::SamallLetter:
@@ -83,6 +83,7 @@ int main()
     return 0;  // Return 0 to indicate successful program execution.
 
 }
+
 
 
 
