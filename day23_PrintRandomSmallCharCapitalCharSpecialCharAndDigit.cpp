@@ -40,7 +40,8 @@ char GetRandomCharacter(enCharType CharType)
     switch (CharType)
     {
     case enCharType::SamallLetter:
-    {
+    {  
+        
         // Generate a random lowercase letter (ASCII codes 97 to 122).
         return char(RandomNumber(97, 122));
         break;  // break is not strictly needed after a return.
@@ -83,6 +84,7 @@ int main()
     return 0;  // Return 0 to indicate successful program execution.
 
 }
+
 
 
 
