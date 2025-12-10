@@ -6,7 +6,7 @@
 using namespace std;  // Use the standard namespace to avoid prefixing std:: to standard functions.
 
 // Function: RandomNumber
-// Purpose: Generates a random integer between the specified range [From, To].
+// Purpose: Generates a random integer between the specified range [From, To] .
 // Parameters:
 //    From - the lower bound of the range.
 //    To   - the upper bound of the range.
@@ -31,4 +31,5 @@ int main() {
     cout << RandomNumber(1, 10) << endl;
    
     return 0;  // Return 0 to indicate successful execution.
+
 }
