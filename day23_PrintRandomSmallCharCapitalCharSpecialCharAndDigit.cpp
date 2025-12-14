@@ -6,7 +6,7 @@
 using namespace std;  // Use the standard namespace to simplify access to standard library  functions .
 
 //   Function: RandomNumber
-// Purpose: Generates a random integer between two specified values, inclusive .
+// Purpose: Generates a random integer between two specified values, inclusive.
 // Parameters:
 //  From - The lower bound of the desired random range.
 //    To   - The upper bound of the desired random range.
@@ -84,6 +84,7 @@ int main()
     return 0;  // Return 0 to indicate successful program execution.
 
 }
+
 
 
 
