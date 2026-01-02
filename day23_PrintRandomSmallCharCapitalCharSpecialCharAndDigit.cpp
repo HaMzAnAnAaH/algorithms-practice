@@ -1,7 +1,7 @@
 #include <iostream>   // Include the iostream library for input/output operations.
 #include <string>     // Include the string library (not used in this example but available if needed).
 #include <cstdlib>    // Include cstdlib for rand() and srand() functions.
-#include <ctime>      // Include ctime for the time() function, used for seeding the random number generator.
+#include <ctime>      // Include ctime for the time() function, used for seeding the random number  generator.
 
 using namespace std;  // Use the standard namespace to simplify access to standard library  functions .
 
@@ -84,6 +84,7 @@ int main()
     return 0;  // Return 0 to indicate successful program execution.
 
 }
+
 
 
 
