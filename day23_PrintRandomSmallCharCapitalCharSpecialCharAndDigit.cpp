@@ -3,7 +3,7 @@
 #include <cstdlib>    // Include cstdlib for rand() and srand() functions.
 #include <ctime>      // Include ctime for the time() function, used for seeding the random number  generator.
 
-using namespace std;  // Use the standard namespace to simplify access to standard library  functions .
+using namespace std;  // Use the standard namespace to simplify access to standard library functions .
 
 //   Function: RandomNumber
 // Purpose: Generates a random integer between two specified values, inclusive.
@@ -84,6 +84,7 @@ int main()
     return 0;  // Return 0 to indicate successful program execution.
 
 }
+
 
 
 
