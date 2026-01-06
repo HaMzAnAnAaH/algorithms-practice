@@ -17,7 +17,7 @@ int RandomNumber(int From, int To)
     // rand() % (To - From + 1) gives a value between 0 and (To - From),
     // then adding From shifts this range to [From, To].
     int randNum = rand() % (To - From + 1) + From;
-    return randNum;  // Return the generated random number .
+    return randNum;  // Return the generated random number.
 }
 
 //Enumeration: enCharType
@@ -84,6 +84,7 @@ int main()
     return 0;  // Return 0 to indicate successful program execution.
 
 }
+
 
 
 
