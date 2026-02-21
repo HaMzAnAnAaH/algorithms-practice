@@ -3,7 +3,7 @@
 using namespace std;  // Use the standard namespace to simplify usage of standard functions.
 
 // Function: MySqrt
-// Purpose: Computes the square root of a given number using the pow function .
+// Purpose: Computes the square root of a given number using the pow function.
 // Parameters:
 //   - Number: A floating-point number whose square root is to be determined.
 // Returns: The square root of the input number.
@@ -40,6 +40,7 @@ int main()
     return 0;  // Return 0 to indicate successful program execution.
 
 }
+
 
 
 
