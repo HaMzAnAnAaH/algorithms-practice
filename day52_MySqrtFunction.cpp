@@ -14,7 +14,7 @@ float MySqrt(float Number)
 
 // Function: ReadNumber
 // Purpose: Reads a floating-point number from the user.
-// Returns: The number entered by the user.
+// Returns: The number entered by the user .
 float ReadNumber()
 {
     float Number;  // Variable to store user input.
@@ -40,6 +40,7 @@ int main()
     return 0;  // Return 0 to indicate successful program execution.
 
 }
+
 
 
 
