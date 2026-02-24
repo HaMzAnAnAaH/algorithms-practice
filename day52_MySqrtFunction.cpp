@@ -9,7 +9,7 @@ using namespace std;  // Use the standard namespace to simplify usage of standar
 // Returns: The square root of the input number.
 float MySqrt(float Number)
 {
-    return pow(Number, 0.5);  // Compute the square root using the power function .
+    return pow(Number, 0.5);  // Compute the square root using the power function.
 }
 
 // Function: ReadNumber
@@ -40,6 +40,7 @@ int main()
     return 0;  // Return 0 to indicate successful program execution.
 
 }
+
 
 
 
