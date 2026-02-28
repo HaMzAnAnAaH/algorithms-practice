@@ -19,6 +19,7 @@ float ReadNumber()
 {
     float Number;  // Variable to store user input.
 
+    
     // Prompt the user to enter a floating-point number.
     cout << "Please enter a number? ";
     cin >> Number;  // Read input from the user.
@@ -40,6 +41,7 @@ int main()
     return 0;  // Return 0 to indicate successful program execution.
 
 }
+
 
 
 
