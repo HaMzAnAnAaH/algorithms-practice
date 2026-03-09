@@ -4,7 +4,7 @@ using namespace std;
 
 int UserNum; //global variable 
 
-enum enumCheckPrime {Prime = 1 , notPrime = 0};  //enums in c++ make some matters very easy and reliable :)
+enum enumCheckPrime {Prime = 1 , notPrime = 0};  //enums in c++ make some matters very easy and reliable  :)
 
 
 int EnterUserNum(){                     //this function enables users to enter their number to test if is it prime or not
@@ -39,4 +39,5 @@ int main()                                           //main func
     PrintResult(checkPrimeNum(EnterUserNum()));
 
     return 0;
+
 }
