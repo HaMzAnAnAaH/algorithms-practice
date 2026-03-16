@@ -2,7 +2,7 @@
 #include <cmath>      // Include cmath for mathematical functions like sqrt and pow.
 using namespace std;  // Use the standard namespace to simplify usage of standard functions.
 
-// Function: MySqrt
+//  Function: MySqrt
 // Purpose: Computes the square root of a given number using the pow function.
 // Parameters:
 //   - Number: A floating-point number whose square root is to be determined.
