@@ -3,6 +3,7 @@
 using namespace std;
 
 
+
 void checkPerfectNum(int UserNum1){
     int sumDivisor=0;
     for(int i =1; i <= UserNum1/2; i++){
