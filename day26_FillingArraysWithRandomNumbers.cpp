@@ -6,6 +6,7 @@
 using namespace std;
 
 
+
 short readUserNum(string message){
     
     short Num;
